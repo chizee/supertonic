@@ -1,11 +1,11 @@
 # Supertonic — Lightning Fast, On-Device, Accurate TTS
 
 > [!CAUTION]
-> ## ⚠️ Development and Support Discontinuation Notice
+> ## ⚠️ Service and Repository Notice (July 23, 2026)
 >
-> **Supertonic is no longer under active development and will not receive further updates or official support.**
+> **This repository will be archived, and there will be no further development or official support for the open-source Supertonic models.**
 >
-> This repository will remain publicly available for reference and existing use. However, no new features, bug fixes, compatibility updates, or maintenance releases are planned.
+> **Voice Builder will no longer be accessible after August 31, 2026.**
 >
 > Thank you to everyone who has used, contributed to, and supported Supertonic.
 
