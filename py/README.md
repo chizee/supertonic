@@ -8,7 +8,11 @@
 
 This guide provides examples for running TTS inference using `example_onnx.py`.
 
-## 📰 Update News
+<details>
+<summary>Historical release notes</summary>
+
+These entries describe past releases. Hosted services and support offers mentioned
+here are no longer provided by this archive. Follow the [archive setup guide](../README.md#quick-start).
 
 **2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
@@ -23,6 +27,8 @@ This guide provides examples for running TTS inference using `example_onnx.py`.
 **2025.11.19** - Added `--speed` parameter to control speech synthesis speed. Adjust the speed factor to make speech faster or slower while maintaining natural quality.
 
 **2025.11.19** - Added automatic text chunking for long-form inference. Long texts are split into chunks and synthesized with natural pauses.
+
+</details>
 
 ## Installation
 

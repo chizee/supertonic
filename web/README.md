@@ -8,7 +8,11 @@
 
 This example demonstrates how to use Supertonic in a web browser using ONNX Runtime Web.
 
-## 📰 Update News
+<details>
+<summary>Historical release notes</summary>
+
+These entries describe past releases. Hosted services and support offers mentioned
+here are no longer provided by this archive. Follow the [archive setup guide](../README.md#quick-start).
 
 **2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
@@ -21,6 +25,8 @@ This example demonstrates how to use Supertonic in a web browser using ONNX Runt
 **2025.11.19** - Added speed control slider to adjust speech synthesis speed (default: 1.05, recommended range: 0.9-1.5).
 
 **2025.11.19** - Added automatic text chunking for long-form inference. Long texts are split into chunks and synthesized with natural pauses.
+
+</details>
 
 ## Features
 

@@ -1,30 +1,34 @@
-# Supertonic — Lightning Fast, On-Device, Accurate TTS
+> **This repository is archived. Development and support have ended.**
+>
+> The code remains available for reference under the terms of the [LICENSE](./LICENSE). No updates, bug fixes, security patches, or support will be provided, and issues and pull requests are no longer monitored. The software is provided "AS IS" as set forth in the license, without any warranty or ongoing responsibility of the original authors.
 
-> [!CAUTION]
-> ## ⚠️ Service and Repository Notice (July 23, 2026)
->
-> **This repository will be archived, and there will be no further development or official support for the open-source Supertonic models.**
->
-> **Voice Builder will no longer be accessible after August 31, 2026.**
->
-> For details about the service changes, timeline, and information for existing Voice Builder users, please see the [official announcement](https://supertone.ai).
->
-> Thank you to everyone who has used, contributed to, and supported Supertonic.
+## Archive locations
+
+The source code is preserved under the `supertone-oss-archive` GitHub organization.
+Model downloads now use the `supertone-oss-archive` Hugging Face namespace:
+
+- [Source code](https://github.com/supertone-oss-archive/supertonic)
+- [Supertonic 3 weights](https://huggingface.co/supertone-oss-archive/supertonic-3)
+- [Supertonic 2 weights](https://huggingface.co/supertone-oss-archive/supertonic-2)
+- [Supertonic 1 weights](https://huggingface.co/supertone-oss-archive/supertonic)
+
+See [Quick Start](#quick-start) to download the archived models and run locally.
+Code and model weights retain their respective [licenses](#license).
+This archive does not include hosted demos or Voice Builder services.
+
+# Supertonic — Lightning Fast, On-Device, Accurate TTS
 
 <p align="center">
   <img src="img/Supertonic3_HeroImage.png" alt="Supertonic 3 Banner">
 </p>
 
-[![GitHub | Official Repo](https://img.shields.io/badge/GitHub-Official%20Repo-black?logo=github)](https://github.com/supertone-oss-archive/supertonic)
+[![GitHub | Source Archive](https://img.shields.io/badge/GitHub-Source%20Archive-black?logo=github)](https://github.com/supertone-oss-archive/supertonic)
 [![Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue)](https://huggingface.co/supertone-oss-archive/supertonic-3)
-[![Runs Locally via WebGPU](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow)](https://huggingface.co/spaces/Supertone/supertonic-3)
-[![DemoPage | Audio Samples](https://img.shields.io/badge/DemoPage-Audio%20Samples-F5D90A?labelColor=0B0C0E)](https://supertonic3.github.io/)
-[![Voice Builder | Cloning Demo](https://img.shields.io/badge/Voice%20Builder-Cloning%20Demo-3457D5?logo=soundcloud&logoColor=white)](https://supertonic.supertone.ai/voice-builder)
 [![GitHub | Python Package](https://img.shields.io/badge/GitHub-Python%20Package-black?logo=github)](https://github.com/supertone-oss-archive/supertonic-py)
 [![Docs | Python PyPI](https://img.shields.io/badge/Docs-Python%20PyPI-blue?logo=readthedocs&logoColor=white)](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/index.md)
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/15657" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15657" alt="supertone-inc%2Fsupertonic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/15657" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15657" alt="Supertonic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
 **Supertonic** is a lightning-fast, on-device multilingual text-to-speech system designed for local inference with minimal overhead. Powered by ONNX Runtime, it runs entirely on your device—no cloud, no API calls, no privacy concerns.
@@ -45,7 +49,11 @@ Arabic (`ar`), Bulgarian (`bg`), Croatian (`hr`), Czech (`cs`), Danish (`da`), D
 
 > **Not sure which language your text is in?** Pass `lang="na"` and Supertonic will handle the input in a language-agnostic way — no explicit language tag required.
 
-### 📰 Update News
+<details>
+<summary>Historical release notes</summary>
+
+These entries describe past releases. Hosted services and support offers mentioned
+here are no longer provided by this archive. Follow the [archive setup guide](README.md#quick-start).
 
 - **2026.05.20** - **Supertonic 3** is now officially supported in **[Supertone Play](https://play.supertone.ai/)** and the **[Supertone API](https://www.supertone.ai/ko/api)**. Visit Play or the API if you want a managed content creation workflow with diverse preset voices and zero-shot voice cloning.
 - **2026.05.18** - Python SDK v1.3.1 adds **`supertonic serve`**, a local HTTP server with native `/v1/tts` and OpenAI-compatible `/v1/audio/speech` endpoints. See the [serve documentation](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/cli/serve.md).
@@ -57,6 +65,8 @@ Arabic (`ar`), Bulgarian (`bg`), Croatian (`hr`), Czech (`cs`), Danish (`da`), D
 - **2025.12.10** - Added [6 new voice styles](https://huggingface.co/supertone-oss-archive/supertonic/tree/c6ad29bec69c380356a0cc393c75dc84a6b37e71/voice_styles) (M3, M4, M5, F3, F4, F5). See [Voices](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/voices.md) for details
 - **2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/supertone-oss-archive/supertonic)
 - **2025.11.24** - Added Flutter SDK support with macOS compatibility
+
+</details>
 
 ---
 
@@ -291,7 +301,7 @@ For a managed creation workflow, **Supertonic 3 is now officially available in [
 
 ## Demo
 
-> **Try it now**: Experience Supertonic in your browser with our [**Interactive Demo**](https://huggingface.co/spaces/Supertone/supertonic-3), or get started with pre-trained models from [**Hugging Face Hub**](https://huggingface.co/supertone-oss-archive/supertonic-3)
+> **Run locally:** Follow [Quick Start](#quick-start) with the [archived weights](https://huggingface.co/supertone-oss-archive/supertonic-3).
 
 ### Raspberry Pi
 
@@ -335,7 +345,7 @@ We provide ready-to-use TTS inference examples across multiple ecosystems:
 
 Supertonic is designed to handle complex, real-world text inputs that contain natural prose, punctuation, abbreviations, and proper nouns.
 
-> 🎧 **View audio samples more easily**: Check out our [**Interactive Demo**](https://huggingface.co/spaces/Supertone/supertonic-3) for a better viewing experience of all audio examples
+> These historical audio samples are hosted externally and are not maintained as part of this archive.
 
 **Overview of Test Cases:**
 
@@ -442,16 +452,38 @@ Supertonic is designed to handle complex, real-world text inputs that contain na
 
 ## Models & Versions
 
+Version-specific branches and tags preserve historical code. Their old download
+instructions may reference the original organization; use the model archives below.
+The Quick Start above uses Supertonic 3 and its matching code on `main`.
+
+
 |  | **Supertonic 3** | Supertonic 2 | Supertonic 1 |
 |---|:---:|:---:|:---:|
-| **Status** | 🟢 Latest | Stable | Legacy |
+| **Status** | Archived | Archived | Archived |
 | **Parameters** | ~99M | ~66M | ~66M |
 | **Languages** | 31 | 5 | 1 (en) |
 | **Expression Tags** | ✅ 10 tags | — | — |
 | **Code** | [main](https://github.com/supertone-oss-archive/supertonic) | [release/supertonic-2](https://github.com/supertone-oss-archive/supertonic/tree/release/supertonic-2) | — |
 | **Weights** | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic-3) | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic-2) | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic) |
-| **Interactive Demo** | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic-3) | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic-2) | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic#interactive-demo) |
-| **Audio Samples** | [DemoPage](https://supertonic3.github.io/) | — | [DemoPage](https://supertonictts.github.io/) |
+
+<details>
+<summary>Previous service notice — July 23, 2026</summary>
+
+The following announcement is preserved as a historical record. Its service links
+may no longer be available; use the archive links above for code and models.
+
+> [!CAUTION]
+> ## ⚠️ Service and Repository Notice (July 23, 2026)
+>
+> **This repository will be archived, and there will be no further development or official support for the open-source Supertonic models.**
+>
+> **Voice Builder will no longer be accessible after August 31, 2026.**
+>
+> For details about the service changes, timeline, and information for existing Voice Builder users, please see the [official announcement](https://supertone.ai).
+>
+> Thank you to everyone who has used, contributed to, and supported Supertonic.
+
+</details>
 
 ## Citation
 

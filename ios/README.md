@@ -16,13 +16,19 @@ A minimal iOS demo that runs Supertonic 3 (ONNX Runtime) on-device. The app show
 
 All ONNX models/configs are reused from `Supertonic/assets/onnx`, and voice style JSON files from `Supertonic/assets/voice_styles`.
 
-## 📰 Update News
+<details>
+<summary>Historical release notes</summary>
+
+These entries describe past releases. Hosted services and support offers mentioned
+here are no longer provided by this archive. Follow the [archive setup guide](../README.md#quick-start).
 
 **2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
 **2025.12.10** - Added [6 new voice styles](https://huggingface.co/supertone-oss-archive/supertonic/tree/c6ad29bec69c380356a0cc393c75dc84a6b37e71/voice_styles) (M3, M4, M5, F3, F4, F5). See [Voices](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/voices.md) for details
 
 **2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/supertone-oss-archive/supertonic)
+
+</details>
 
 ## Prerequisites
 - macOS 13+, Xcode 15+

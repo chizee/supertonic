@@ -11,7 +11,11 @@ This example demonstrates how to use Supertonic 3 in a Flutter application using
 > **Note:** This project uses the `flutter_onnxruntime` package ([https://pub.dev/packages/flutter_onnxruntime](https://pub.dev/packages/flutter_onnxruntime)). At the moment, only the macOS platform has been tested. Although the flutter_onnxruntime package supports several other platforms, they have not been tested in this project yet and may require additional verification.
 
 
-## 📰 Update News
+<details>
+<summary>Historical release notes</summary>
+
+These entries describe past releases. Hosted services and support offers mentioned
+here are no longer provided by this archive. Follow the [archive setup guide](../README.md#quick-start).
 
 **2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
@@ -20,6 +24,8 @@ This example demonstrates how to use Supertonic 3 in a Flutter application using
 **2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/supertone-oss-archive/supertonic)
 
 **2025.11.23** - Added and tested macos support.
+
+</details>
 
 ## Multilingual Support
 
