@@ -1,14 +1,20 @@
 # Supertonic C++ Implementation
 
+> **Archived model download:** From the repository root, run
+> `hf download supertone-oss-archive/supertonic-3 --revision aafc6e32416a594460b32413efc49d7fe4ce6d46 --local-dir assets`
+> before using this example. See the [archive setup guide](../README.md#quick-start)
+> for installation. Hosted demos mentioned in historical release notes are not part of this archive.
+
+
 High-performance text-to-speech inference using ONNX Runtime.
 
 ## 📰 Update News
 
-**2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/Supertone/supertonic-3)
+**2026.04.29** - 🎉 **Supertonic 3** released with 31-language support, improved reading accuracy, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
-**2025.12.10** - Added [6 new voice styles](https://huggingface.co/Supertone/supertonic/tree/b10dbaf18b316159be75b34d24f740008fddd381) (M3, M4, M5, F3, F4, F5). See [Voices](https://supertone-inc.github.io/supertonic-py/voices/) for details
+**2025.12.10** - Added [6 new voice styles](https://huggingface.co/supertone-oss-archive/supertonic/tree/c6ad29bec69c380356a0cc393c75dc84a6b37e71/voice_styles) (M3, M4, M5, F3, F4, F5). See [Voices](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/voices.md) for details
 
-**2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/Supertone/supertonic)
+**2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/supertone-oss-archive/supertonic)
 
 **2025.11.23** - Enhanced text preprocessing with comprehensive normalization, emoji removal, symbol replacement, and punctuation handling for improved synthesis quality.
 

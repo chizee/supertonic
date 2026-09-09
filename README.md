@@ -15,13 +15,13 @@
   <img src="img/Supertonic3_HeroImage.png" alt="Supertonic 3 Banner">
 </p>
 
-[![GitHub | Official Repo](https://img.shields.io/badge/GitHub-Official%20Repo-black?logo=github)](https://github.com/supertone-inc/supertonic)
-[![Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue)](https://huggingface.co/Supertone/supertonic-3)
+[![GitHub | Official Repo](https://img.shields.io/badge/GitHub-Official%20Repo-black?logo=github)](https://github.com/supertone-oss-archive/supertonic)
+[![Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue)](https://huggingface.co/supertone-oss-archive/supertonic-3)
 [![Runs Locally via WebGPU](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow)](https://huggingface.co/spaces/Supertone/supertonic-3)
 [![DemoPage | Audio Samples](https://img.shields.io/badge/DemoPage-Audio%20Samples-F5D90A?labelColor=0B0C0E)](https://supertonic3.github.io/)
 [![Voice Builder | Cloning Demo](https://img.shields.io/badge/Voice%20Builder-Cloning%20Demo-3457D5?logo=soundcloud&logoColor=white)](https://supertonic.supertone.ai/voice-builder)
-[![GitHub | Python Package](https://img.shields.io/badge/GitHub-Python%20Package-black?logo=github)](https://github.com/supertone-inc/supertonic-py)
-[![Docs | Python PyPI](https://img.shields.io/badge/Docs-Python%20PyPI-blue?logo=readthedocs&logoColor=white)](https://supertone-inc.github.io/supertonic-py/)
+[![GitHub | Python Package](https://img.shields.io/badge/GitHub-Python%20Package-black?logo=github)](https://github.com/supertone-oss-archive/supertonic-py)
+[![Docs | Python PyPI](https://img.shields.io/badge/Docs-Python%20PyPI-blue?logo=readthedocs&logoColor=white)](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/index.md)
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15657" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15657" alt="supertone-inc%2Fsupertonic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -48,102 +48,89 @@ Arabic (`ar`), Bulgarian (`bg`), Croatian (`hr`), Czech (`cs`), Danish (`da`), D
 ### 📰 Update News
 
 - **2026.05.20** - **Supertonic 3** is now officially supported in **[Supertone Play](https://play.supertone.ai/)** and the **[Supertone API](https://www.supertone.ai/ko/api)**. Visit Play or the API if you want a managed content creation workflow with diverse preset voices and zero-shot voice cloning.
-- **2026.05.18** - Python SDK v1.3.1 adds **`supertonic serve`**, a local HTTP server with native `/v1/tts` and OpenAI-compatible `/v1/audio/speech` endpoints. See the [serve documentation](https://supertone-inc.github.io/supertonic-py/cli/serve/).
+- **2026.05.18** - Python SDK v1.3.1 adds **`supertonic serve`**, a local HTTP server with native `/v1/tts` and OpenAI-compatible `/v1/audio/speech` endpoints. See the [serve documentation](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/cli/serve.md).
 - **2026.05.18** - **[Voice Builder](https://supertonic.supertone.ai/voice-builder)** now supports **Supertonic 3**. Create a permanent custom voice profile for Supertonic and download version-specific JSON files for both Supertonic 2 and Supertonic 3. If you already created a Supertonic 2 voice, the matching Supertonic 3 JSON is now available from [My Page](https://supertonic.supertone.ai/my-page).
-- **2026.04.29** - 🎉 **Supertonic 3** released with **31-language support**, improved reading accuracy, fewer repeat/skip failures, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/Supertone/supertonic-3)
+- **2026.04.29** - 🎉 **Supertonic 3** released with **31-language support**, improved reading accuracy, fewer repeat/skip failures, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/supertone-oss-archive/supertonic-3)
 - **2026.01.22** - **[Voice Builder](https://supertonic.supertone.ai/voice-builder)** is now live! Turn your voice into a deployable, edge-native TTS with permanent ownership.
-- **2026.01.06** - 🎉 **Supertonic 2** released with 5-language support. The v2 code path is preserved on the [`release/supertonic-2`](https://github.com/supertone-inc/supertonic/tree/release/supertonic-2) branch.
-- **2025.12.10** - Added `supertonic` PyPI package! Install via `pip install supertonic`. For details, visit [supertonic-py documentation](https://supertone-inc.github.io/supertonic-py)
-- **2025.12.10** - Added [6 new voice styles](https://huggingface.co/Supertone/supertonic/tree/b10dbaf18b316159be75b34d24f740008fddd381) (M3, M4, M5, F3, F4, F5). See [Voices](https://supertone-inc.github.io/supertonic-py/voices/) for details
-- **2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/Supertone/supertonic)
+- **2026.01.06** - 🎉 **Supertonic 2** released with 5-language support. The v2 code path is preserved on the [`release/supertonic-2`](https://github.com/supertone-oss-archive/supertonic/tree/release/supertonic-2) branch.
+- **2025.12.10** - Added `supertonic` PyPI package! Install via `pip install supertonic`. For details, visit [supertonic-py documentation](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/index.md)
+- **2025.12.10** - Added [6 new voice styles](https://huggingface.co/supertone-oss-archive/supertonic/tree/c6ad29bec69c380356a0cc393c75dc84a6b37e71/voice_styles) (M3, M4, M5, F3, F4, F5). See [Voices](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/voices.md) for details
+- **2025.12.08** - Optimized ONNX models via [OnnxSlim](https://github.com/inisis/OnnxSlim) now available on [Hugging Face Models](https://huggingface.co/supertone-oss-archive/supertonic)
 - **2025.11.24** - Added Flutter SDK support with macOS compatibility
 
 ---
 
 ## Quick Start
 
-Install the Python SDK and generate speech immediately. On the first run, Supertonic downloads the model assets from Hugging Face automatically.
+Use the examples in this repository with model files downloaded explicitly from
+the archive. No Hugging Face login, hosted demo, or original Supertone service is
+required. These instructions use Supertonic 3.
+
+### 1. Clone the source and install the download tool
+
+Use Python 3.11 in a virtual environment:
 
 ```bash
-pip install supertonic
-```
-
-### Python
-
-```python
-from supertonic import TTS
-
-# First run downloads the model from Hugging Face automatically.
-tts = TTS(auto_download=True)
-
-style = tts.get_voice_style(voice_name="M1")
-
-text = "Supertonic is a lightning fast, on-device TTS system."
-
-wav, duration = tts.synthesize(
-    text=text,
-    lang="en",                      # Language code (e.g., "en", "ko", "na" for language-agnostic)
-    voice_style=style,              # Voice style object
-    total_steps=8,                  # Quality: 5 (low) to 12 (high), default 8 (medium)
-    speed=1.05,                     # Speed: 0.7 (slow) to 2.0 (fast)
-)
-# wav: numpy array of shape (1, num_samples,) with dtype=np.float32, sampled at 44100 Hz
-# duration: numpy array of shape (1,) containing the duration of the generated audio in seconds
-
-tts.save_audio(wav, "output.wav")
-# import soundfile as sf
-# sf.write("output.wav", wav.squeeze(), 44100)
-
-print(f"Generated {duration[0]:.2f}s of audio")
-```
-
-### Local HTTP Server
-
-The Python SDK can also run Supertonic as a local HTTP service. This is useful when you want to call Supertonic from tools that already speak HTTP, such as local agents, browser extensions, Electron apps, workflow automation tools, or OpenAI-compatible audio clients.
-
-```bash
-pip install 'supertonic[serve]'
-supertonic serve --host 127.0.0.1 --port 7788
-```
-
-Once running, use the native `POST /v1/tts` endpoint or the OpenAI-compatible `POST /v1/audio/speech` endpoint. The server also exposes interactive OpenAPI docs at `http://127.0.0.1:7788/docs`. See the [supertonic-py serve guide](https://supertone-inc.github.io/supertonic-py/cli/serve/) for request examples, batch synthesis, and custom Voice Builder JSON import.
-
-## Getting Started
-
-First, clone the repository:
-
-```bash
-git clone https://github.com/supertone-inc/supertonic.git
+git clone https://github.com/supertone-oss-archive/supertonic.git
 cd supertonic
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install huggingface_hub
 ```
 
-### Prerequisites
+On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerShell.
 
-Before running the examples, download the ONNX models and preset voices, and place them in the `assets` directory:
-
-> **Note:** The Hugging Face repository uses Git LFS. Please ensure Git LFS is installed and initialized before cloning or pulling large model files.
-> - macOS: `brew install git-lfs && git lfs install`
-> - Generic: see `https://git-lfs.com` for installers
+### 2. Download the archived model
 
 ```bash
-git lfs install
-git clone https://huggingface.co/Supertone/supertonic-3 assets
+hf download supertone-oss-archive/supertonic-3 \
+  --revision aafc6e32416a594460b32413efc49d7fe4ce6d46 \
+  --local-dir assets
 ```
+
+This downloads the ONNX models, configuration, and preset voice styles to `assets/`.
+The revision pins the archived snapshot. Git LFS is not needed for this download method.
+See [Models & Versions](#models--versions) for the archived Supertonic 1 and 2 weights.
+
+### 3. Generate speech locally
+
+```bash
+python -m pip install -r py/requirements.txt
+cd py
+python example_onnx.py --n-test 1 --text "This speech was generated locally with the archived Supertonic model." --lang en
+```
+
+The generated WAV file is saved in `py/results/`. After dependencies and models
+have been downloaded, this example performs inference locally without a network connection.
+See [Python examples](py/README.md) for voice selection, batch synthesis, and other options.
+
+### Optional Python SDK
+
+Older releases of the `supertonic` Python package may still use the original
+`Supertone` Hugging Face namespace for automatic downloads. Download `assets/`
+as above and pass `model_dir` with `auto_download=False` instead.
+
+To use the preserved SDK source with Supertonic 3 support, run these commands
+from the repository root in the same virtual environment:
+
+```bash
+python -m pip install "git+https://github.com/supertone-oss-archive/supertonic-py.git@df0f9686dac7fbbde391b759e2ee5286a3737622"
+python py/example_pypi.py
+```
+
+The SDK example uses the local `assets/` directory and does not download models.
+The archived [local server guide](https://github.com/supertone-oss-archive/supertonic-py/blob/main/docs/cli/serve.md)
+is available for reference; the ONNX example above is the default archive setup.
+
+## Getting Started in Other Runtimes
+
+Download the same `assets/` directory from the repository root before running
+the examples below. The language examples read these local files.
 
 Some language examples need native runtimes:
-- **Go**: install the ONNX Runtime C library. On macOS, `brew install onnxruntime` is enough; the Go example auto-detects Homebrew paths.
-- **Java**: use a JDK, not just a JRE. On macOS, `brew install openjdk@17` works.
-- **C#**: targets .NET 9 and allows major-version roll-forward, so .NET 9 or newer runtimes can run it.
-
-Then run the Python example:
-
-```bash
-cd py
-uv sync
-uv run example_onnx.py
-```
-
-This generates `outputs/output.wav` using the default preset voice.
+- **Go**: install the ONNX Runtime C library. On macOS, `brew install onnxruntime`.
+- **Java**: use a JDK, not just a JRE. On macOS, `brew install openjdk@17`.
+- **C#**: targets .NET 9 and allows major-version roll-forward.
 
 ### Other Runtime Examples
 
@@ -304,7 +291,7 @@ For a managed creation workflow, **Supertonic 3 is now officially available in [
 
 ## Demo
 
-> **Try it now**: Experience Supertonic in your browser with our [**Interactive Demo**](https://huggingface.co/spaces/Supertone/supertonic-3), or get started with pre-trained models from [**Hugging Face Hub**](https://huggingface.co/Supertone/supertonic-3)
+> **Try it now**: Experience Supertonic in your browser with our [**Interactive Demo**](https://huggingface.co/spaces/Supertone/supertonic-3), or get started with pre-trained models from [**Hugging Face Hub**](https://huggingface.co/supertone-oss-archive/supertonic-3)
 
 ### Raspberry Pi
 
@@ -461,8 +448,8 @@ Supertonic is designed to handle complex, real-world text inputs that contain na
 | **Parameters** | ~99M | ~66M | ~66M |
 | **Languages** | 31 | 5 | 1 (en) |
 | **Expression Tags** | ✅ 10 tags | — | — |
-| **Code** | [main](https://github.com/supertone-inc/supertonic) | [release/supertonic-2](https://github.com/supertone-inc/supertonic/tree/release/supertonic-2) | — |
-| **Weights** | [🤗 HF](https://huggingface.co/Supertone/supertonic-3) | [🤗 HF](https://huggingface.co/Supertone/supertonic-2) | [🤗 HF](https://huggingface.co/Supertone/supertonic) |
+| **Code** | [main](https://github.com/supertone-oss-archive/supertonic) | [release/supertonic-2](https://github.com/supertone-oss-archive/supertonic/tree/release/supertonic-2) | — |
+| **Weights** | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic-3) | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic-2) | [🤗 HF](https://huggingface.co/supertone-oss-archive/supertonic) |
 | **Interactive Demo** | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic-3) | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic-2) | [🤗 Space](https://huggingface.co/spaces/Supertone/supertonic#interactive-demo) |
 | **Audio Samples** | [DemoPage](https://supertonic3.github.io/) | — | [DemoPage](https://supertonictts.github.io/) |
 
@@ -530,9 +517,9 @@ This paper describes the RobustSpeechFlow technique for improving the robustness
 
 ## License
 
-This project's sample code is released under the MIT License. - see the [LICENSE](https://github.com/supertone-inc/supertonic?tab=MIT-1-ov-file) for details.
+This project's sample code is released under the MIT License. - see the [LICENSE](./LICENSE) for details.
 
-The accompanying model is released under the OpenRAIL-M License. - see the [LICENSE](https://huggingface.co/Supertone/supertonic-3/blob/main/LICENSE) file for details.
+The accompanying model is released under the OpenRAIL-M License. - see the [LICENSE](https://huggingface.co/supertone-oss-archive/supertonic-3/blob/main/LICENSE) file for details.
 
 This model was trained using PyTorch, which is licensed under the BSD 3-Clause License but is not redistributed with this project. - see the [LICENSE](https://docs.pytorch.org/FBGEMM/general/License.html) for details.
 
